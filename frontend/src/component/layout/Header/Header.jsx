@@ -3,7 +3,7 @@ import { LocationOn , Search } from '@material-ui/icons'
 const Header = () => {
   return (
     <>
-      <div className="container">
+      <div className="Container">
         <div className="item">
           <div className="logo">
             <img src="/images/newlogo.png" className="logo_img" alt="logo" />
