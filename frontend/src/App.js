@@ -1,7 +1,7 @@
 // import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Header from './component/layout/Header/Header';
 import SmallHeader from './component/layout/SmalHeader/SmallHeader';
-import Banner from './component/layout/Banner/Banner'
+
 function App() {
   return (
     <div>
@@ -13,7 +13,7 @@ function App() {
 
       <Header />
       <SmallHeader/>
-      <Banner/>
+      <Home/>
     </div>
   )
 }
