@@ -1,10 +1,46 @@
-import  './feature.css'
+import './feature.css'
 
 export default function Feature() {
     return (
         <>
-        this is a feature page 
-            
+            <div className="Feature_Wrapper">
+                <div className="container-fluid">
+                    <div className="card" >
+                        <div className="card-body">
+                            <h5 className="card-title">Gamming accessories</h5>
+                            <div className="card-text">
+                                <div className="product_wrapper">
+                                    <div className="product">
+                                        <img src="/images/headphone.jpg" alt="product_images" className="product_img" />
+                                        <span className="product_name">Headsets</span>
+                                    </div>
+                                    <div className="product">
+                                        <img src="/images/keyboard.jpg" alt="product_images" className="product_img" />
+                                        <span className="product_name">Headsets</span>
+                                    </div>
+                                </div>
+                                <div className="product_wrapper mt-3">
+                                    <div className="product">
+                                        <img src="/images/mouse.jpg" alt="product_images" className="product_img" />
+                                        <span className="product_name">Headsets</span>
+                                    </div>
+                                    <div className="product">
+                                        <img src="/images/chair.jpg" alt="product_images" className="product_img" />
+                                        <span className="product_name">Headsets</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <a href="#" className="card-link">
+                                Card link
+    </a>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
         </>
     )
 }
