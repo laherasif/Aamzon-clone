@@ -1,19 +1,7 @@
-.Container{
-  height: 50px;
-  background-color: #131921;
-  position: sticky;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: white;
-  padding: 0px 30px;
-}
-.item{
-  flex: 1;
-  /* display: flex; */
-  align-items: center;
-}
 
+.navber{
+  color: white;
+}
 .logo{
   display: flex;
   align-items: center
@@ -21,8 +9,8 @@
 
 
 .logo_img{
-  width: 40%;
-  height:40%;
+  width: 120px;
+  height:40px;
   object-fit: cover;
   cursor: pointer;
   padding: 5px;
@@ -88,7 +76,6 @@
 .input_search{
   width: 85%;
   height: 39px;
-  /* border-left: 1pt solid gray */
 
 }
 .input_search:focus{
