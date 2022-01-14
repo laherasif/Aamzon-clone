@@ -27,8 +27,8 @@ export default function Home() {
                                 <Feature />
                             </div>
                         </div>
-                        <div className="row mt-3">
-                            <div className="container">
+                        <div style={{ margin: '25px' }}>
+                            <div className="row mt-3">
                                 <div className="col-md-12">
                                     <Catagory />
                                 </div>
@@ -51,15 +51,51 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div className="row mt-3">
-                            <div className="col-md-12">
-                                <Catagory />
+                        <div style={{ margin: '25px' }}>
+                            <div className="row mt-3">
+                                <div className="col-md-12">
+                                    <Catagory />
+                                </div>
                             </div>
 
                         </div>
+                        <div style={{ margin: '25px' }}>
+                            <div className="row mt-3">
+                                <div className="col-md-12">
+                                    <Catagory />
+                                </div>
+                            </div>
+
+                        </div>
+
                         <div className="row mt-3">
-                            <div className="col-md-12">
-                                <Catagory />
+                            <div className="col-md-3">
+                                <Feature />
+                            </div>
+                            <div className="col-md-3">
+                                <Feature />
+                            </div>
+                            <div className="col-md-3">
+                                <Feature />
+                            </div>
+                            <div className="col-md-3">
+                                <Feature />
+                            </div>
+                        </div>
+                        
+                        <div style={{ margin: '25px' }}>
+                            <div className="row mt-3">
+                                <div className="col-md-12">
+                                    <Catagory />
+                                </div>
+                            </div>
+
+                        </div>
+                        <div style={{ margin: '25px' }}>
+                            <div className="row mt-3">
+                                <div className="col-md-12">
+                                    <Catagory />
+                                </div>
                             </div>
 
                         </div>
@@ -67,6 +103,7 @@ export default function Home() {
                     </div>
 
                 </div>
+                
             </div>
 
 

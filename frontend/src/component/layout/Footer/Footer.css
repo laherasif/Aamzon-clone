@@ -1,73 +1,60 @@
-footer {
-  margin-top: 10vmax;
-  padding: 2vmax;
-  background-color: rgb(34, 33, 33);
+.footer{
+  background-color: #232F3E;
+  height: 100%;
   color: white;
+  padding-top: 50px;
+ 
+}
+
+.lists{
+  padding: 0px;
+  list-style: none;
+}
+
+.lists p{
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.listItem{
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.bottom_footer{
   display: flex;
-  align-items: center;
+  justify-content: center
 }
-
-.leftFooter {
-  width: 20%;
+.bottom_list{
   display: flex;
-
-  flex-direction: column;
+  flex-direction: row;
+  list-style: none;
   align-items: center;
+  margin-top: 20px;
 }
-.leftFooter > h4 {
-  font-family: "Roboto";
-  font-size: 1vmax;
-}
-.leftFooter > p {
-  text-align: center;
-  font-size: 1.2vmax;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-.leftFooter > img {
-  width: 10vmax;
-  margin: 1vmax;
-  cursor: pointer;
+.bottom_listItems{
+  background-image: url(../../images/amazon-bg-logo.png);
+  background-position: -10px -90px;
+  width: 76px;
+  height: 23px;
+  margin-top: 10px;
+  margin-right: 60px;
+  /* margin: 0 auto; */
+
 }
 
-.midFooter {
-  width: 60%;
 
-  text-align: center;
-}
-
-.midFooter > h1 {
-  font-size: 4vmax;
-  font-family: "Roboto";
-  color: #eb4034;
-}
-.midFooter > p {
-  max-width: 60%;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  margin: 1vmax auto;
+.bottom_listItem{
+  width: 150px;
+  height: 35px;
+  font-size: 14px;
+  border: 1pt solid;
+  margin-left: 10px;
+  padding: 3px;
+  border-radius: 5px
 }
 
-.rightFooter {
-  width: 20%;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.rightFooter > h4 {
-  font-family: "Roboto";
-  font-size: 1.4vmax;
-  text-decoration: underline;
-}
-.rightFooter > a {
-  text-decoration: none;
-  font-size: 1.3vmax;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: white;
-  transition: all 0.5s;
-  margin: 0.5vmax;
-}
-
-.rightFooter > a:hover {
-  color: #eb4034;
+.footer_hr{
+  margin-top: 90px;
 }
