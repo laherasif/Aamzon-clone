@@ -3,13 +3,11 @@ import { LocationOn, Search } from '@material-ui/icons'
 const Header = () => {
   return (
     <>
-      <div className="container-fluid">
-      <div className="row">
-      <div className="col-md-2"> first</div>
-      <div className="col-md-7"> center </div>
-      <div className="col-md-3"> last </div>
-      </div>
-      </div>
+      
+      <nav className="navbar navbar-dark bg-dark">
+
+      </nav>
+     
       {/* <div className="item">
           <div className="logo">
             <img src="/images/newlogo.png" className="logo_img" alt="logo" />
