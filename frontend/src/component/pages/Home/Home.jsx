@@ -26,6 +26,20 @@ export default function Home() {
                                 <Feature />
                             </div>
                         </div>
+                        <div className="row mt-3">
+                            <div className="col-md-3">
+                                <Feature />
+                            </div>
+                            <div className="col-md-3">
+                                <Feature />
+                            </div>
+                            <div className="col-md-3">
+                                <Feature />
+                            </div>
+                            <div className="col-md-3">
+                                <Feature />
+                            </div>
+                        </div>
                     </div>
 
                 </div>
