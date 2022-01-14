@@ -1,10 +1,16 @@
 import "./Header.css";
-import { LocationOn , Search } from '@material-ui/icons'
+import { LocationOn, Search } from '@material-ui/icons'
 const Header = () => {
   return (
     <>
-      <div className="Container">
-        <div className="item">
+      <div className="container-fluid">
+      <div className="row">
+      <div className="col-md-2"> first</div>
+      <div className="col-md-7"> center </div>
+      <div className="col-md-3"> last </div>
+      </div>
+      </div>
+      {/* <div className="item">
           <div className="logo">
             <img src="/images/newlogo.png" className="logo_img" alt="logo" />
             <div className="locationWarpper">
@@ -34,7 +40,7 @@ const Header = () => {
 
         </div>
         <div className="item"> right </div>
-      </div>
+      </div> */}
     </>
   )
 };
