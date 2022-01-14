@@ -17,8 +17,8 @@ const images = [
 export default function Catagory() {
     return (
         <>
+                {/* <div className="container-fluid"> */}
             <div className="catagory-wrapper">
-                <div className="container-fluid">
                     <div className="catagorys">
                         <p>Popular products in Apparel international</p>
                         <div className="catagory-imgs">
@@ -33,7 +33,7 @@ export default function Catagory() {
                             <img src="/images/baby-1.jpg" alt="babay" />
                         </div>
                     </div>
-                </div>
+                {/* </div> */}
             </div>
 
         </>

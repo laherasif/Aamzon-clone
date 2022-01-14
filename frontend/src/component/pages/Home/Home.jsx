@@ -5,7 +5,7 @@ import Catagory from '../../layout/Catagory/Catagory';
 export default function Home() {
     return (
         <>
-            <div className="Home_Wrapper">
+            <div className="Home_Wrapper" >
 
                 <div className="banner">
                     <Banner />
@@ -28,25 +28,42 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="row mt-3">
+                            <div className="container">
+                                <div className="col-md-12">
+                                    <Catagory />
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div className="row mt-3">
+                            <div className="col-md-3">
+                                <Feature />
+                            </div>
+                            <div className="col-md-3">
+                                <Feature />
+                            </div>
+                            <div className="col-md-3">
+                                <Feature />
+                            </div>
+                            <div className="col-md-3">
+                                <Feature />
+                            </div>
+                        </div>
+
+                        <div className="row mt-3">
                             <div className="col-md-12">
                                 <Catagory />
                             </div>
-                           
+
                         </div>
-                        <div className="row mt-5">
-                            <div className="col-md-3">
-                                <Feature />
+                        <div className="row mt-3">
+                            <div className="col-md-12">
+                                <Catagory />
                             </div>
-                            <div className="col-md-3">
-                                <Feature />
-                            </div>
-                            <div className="col-md-3">
-                                <Feature />
-                            </div>
-                            <div className="col-md-3">
-                                <Feature />
-                            </div>
+
                         </div>
+
                     </div>
 
                 </div>
