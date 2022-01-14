@@ -8,7 +8,7 @@ export default function SmallHeader() {
                     <div className="header_list">
                         <ul className="list">
                             <li className="listItems">All</li>
-                            <li className="listItems">All</li>
+                            <li className="listItems">All data </li>
                             <li className="listItems">All</li>
                             <li className="listItems">All</li>
                             <li className="listItems">All</li>
