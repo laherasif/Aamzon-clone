@@ -1,6 +1,7 @@
 
-.navber{
+.navbar{
   color: white;
+  height: 60px;
 }
 .logo{
   display: flex;
@@ -9,22 +10,24 @@
 
 
 .logo_img{
-  width: 120px;
-  height:40px;
+  width: 50%;
+  height:50%;
   object-fit: cover;
   cursor: pointer;
   padding: 5px;
+  border-radius: 4px;
 }
 .logo_img:hover{
   border: 1pt solid white;
-  border-radius: 4px;
 }
 
 .locationWarpper{
   display: flex;
   align-items: center;
   margin-left: 10px;
+  height: 55px;
   padding: 5px;
+  border-radius: 4px;
   cursor: pointer;
 
 
@@ -32,7 +35,6 @@
 
 .locationWarpper:hover{
   border: 1pt solid white;
-  border-radius: 4px;
 }
 
 .texts{
@@ -46,49 +48,86 @@
   font-weight: 500;
 }
 
+.input-group{
+  height: 45px;
+  cursor: pointer;
+}
+.input-group:focus{
+ outline: 2pt solid #F3A847
+}
+
+.input-group-text{
+  cursor: pointer;
+  width: 70px;
+}
+.input-group-text option{
+  text-align: left
+}
+
+.input-group-text:focus{
+  outline-color: #F3A847
+}
+
+.input-group-search {
+  display: flex;
+  align-items: center;
+  padding: 0.375rem 0.75rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #F3A847;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+.input_form:focus{
+  outline: #F3A847
+}
+
 .desc{
   font-size: 18px;
   font-weight: 600;
 }
-
-.item:nth-child(2){
-  flex:3;
-  height: 40px
-}
-
-.search_bar{
-  height: 38px;
+.flag_wrapper{
   display: flex;
+  margin-left: 10px;
+  margin-right: 20px;
+  flex-direction: row;
   align-items: center;
-  border:1pt solid;
-  border-radius: 5px
+}
+ .country_flag{
+  /* width: 100%; */
+  height: 25px;
+  object-fit: cover
 }
 
-.search_select{
+.flag_arrow_left{
+  margin-left: 10px;
+}
+
+.sign_desc{
+  font-size: 12px;
+  font-weight: bold;
+  width: 120px;
+  display: flex;
+  flex-direction: row
+
+}
+.return_desc{
+  font-size: 14px;
+  font-weight: bold;
   width: 60px;
-  height: 39px;
-  border: none
-}
-.search_select:focus{
-  outline: none
 }
 
-.input_search{
-  width: 85%;
-  height: 39px;
-
+.cart_desc{
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  padding-top: 5px;
 }
-.input_search:focus{
-  outline: none
-}
-
-.search_icon{
-    width: 6%;
-    height: 35px;
-    padding: 15px 5px 5px 10px
-}
-
-.item:last-child(){
-  background-color: red;
-  flex: 3
+.shooping_Cart{
+  width: 40px;
+  height: 40px;
 }
