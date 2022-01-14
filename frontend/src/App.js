@@ -1,18 +1,19 @@
-import React from 'react'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Header from './component/layout/Header/Header';
-import SmallHeader from './component/layout/SmallHeader/SmallHeader';
+import SmallHeader from './component/layout/SmalHeader/SmallHeader';
+import Banner from './component/layout/Banner/Banner'
 function App() {
   return (
     <div>
-      <Router>
-        <Header />
-        <SmallHeader/>
+      {/* <Router>
         <Switch>
-          {/* <Route path="/" component={}/> */}
+        <Route path="/" component={}/>
         </Switch>
-      </Router>
+      </Router> */}
 
+      <Header />
+      <SmallHeader/>
+      <Banner/>
     </div>
   )
 }
