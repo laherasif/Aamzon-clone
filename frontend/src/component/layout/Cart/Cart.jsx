@@ -14,10 +14,24 @@ export default function Cart() {
                                     <p>Price</p>
                                 </div>
                                 <div className="product_details">
-                                   <img src="/images/paste-1.jpg" alt="cart_img" className="product_img_cart"/>
-                                   <div className="cart_product_desc">
-                                     <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim fugiat dignissimos aliquid commodi, impedit magnam similique obcaecati voluptatibus, hic expedita corrupti vel dolorem repellendus eaque vitae reiciendis, eum earum ullam?</h4>
-                                   </div>
+                                    <div className="cart_product">
+                                        <img src="/images/paste-1.jpg" alt="cart_img" className="product_img_cart" />
+                                        <div className="detail">
+                                            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quidem modi, aliquam, saepe nulla ut dicta quos laboriosam odio sit eos commodi voluptatum ex delectus dignissimos? In ipsum voluptate corporis.</h4>
+                                            <span>In Stock</span>
+                                            
+                                            <select className="select_quntity">
+                                            <option> Qty: 1</option>
+                                            <option>1</option>
+                                            <option>1</option>
+                                            <option>1</option>
+                                            <option>1</option>
+                                            </select>
+
+                                        </div>
+                                    </div>
+                                    <div className="cart_price">right</div>
+
                                 </div>
                             </div>
 

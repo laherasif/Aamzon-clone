@@ -19,9 +19,25 @@
 
 .product_details{
     display: flex;
+    justify-content: space-between;
+}
+.cart_product{
+    display: flex;
     flex-direction: row
 }
-.cart_product_desc{
+
+.detail{
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    margin-left: 15px;
 }
+.detail h4{
+    font-size: 18px;
+    width: 80%;
+}
+.select_quntity{
+    max-width: 9%;
+    border-radius: 5px;
+    height: 30px;
+}
+
