@@ -4,7 +4,7 @@ import Home from './component/pages/Home/Home'
 import Wrapper from './component/LayoutWrapper/Wrapper/Wrapper'
 import Login from './component/pages/Login/Login';
 import SignUp from './component/pages/SignUp/SignUp';
-import Products from './component/layout/Product/Product'
+import Products from './component/layout/Product/Product';
 function App() {
   return (
     <Router>
@@ -18,7 +18,7 @@ function App() {
         <Route path="/register" component={SignUp} />
         <Route exact path="/product" >
           <Wrapper>
-            <Products />
+            <Products/>
           </Wrapper>
         </Route>
 
