@@ -1,0 +1,14 @@
+
+.loginWrapper{
+    background-color: white
+}
+
+
+.logo{
+  background-image: url(../../images/login-logo.png);
+  background-position: -10px -130px;
+  width: 76px;
+  height: 23px;
+  margin-top: 10px;
+  margin-right: 60px;
+}
