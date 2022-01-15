@@ -15,12 +15,18 @@ export default function Login() {
                                     <label className="form-label">Email or mobile phone number </label>
                                     <input type="email" className="form-control" />
                                 </div>
-                                <button className="btn_singIn" >SignIn</button>
+                                <button className="btn_singIn" >countinue</button>
+
+                                <div className="agree">
+                                    <p>By countinuting , you agree to Amazon's conditions of Use and Privacy Notice. </p>
+                                </div>
                             </div>
                             <div className="new_account">
-                               <div className="new_account_desc">
-                               <h5>New to Amazon</h5>
-                               </div>
+                                <div className="new_account_desc">
+                                    <h5>New to Amazon</h5>
+                                </div>
+
+                                <button className="btn_create">Create your Amazon account </button>
                             </div>
                         </div>
                     </div>
