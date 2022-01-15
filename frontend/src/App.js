@@ -5,6 +5,7 @@ import Wrapper from './component/LayoutWrapper/Wrapper/Wrapper'
 import Login from './component/pages/Login/Login';
 import SignUp from './component/pages/SignUp/SignUp';
 import Products from './component/layout/Product/Product';
+import Cart from './component/layout/Cart/Cart';
 function App() {
   return (
     <Router>
@@ -19,6 +20,11 @@ function App() {
         <Route exact path="/product" >
           <Wrapper>
             <Products/>
+          </Wrapper>
+        </Route>
+        <Route exact path="/cart" >
+          <Wrapper>
+            <Cart/>
           </Wrapper>
         </Route>
 
