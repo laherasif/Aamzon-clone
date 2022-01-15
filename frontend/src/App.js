@@ -24,8 +24,8 @@ function App() {
             <Products/>
           </Wrapper>
         </Route>
-        
-        <Route exact path="/product" >
+
+        <Route exact path="/single" >
           <Wrapper>
             <Single/>
           </Wrapper>
