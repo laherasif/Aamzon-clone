@@ -7,6 +7,7 @@ import SignUp from './component/pages/SignUp/SignUp';
 import Products from './component/layout/Product/Product';
 import Cart from './component/layout/Cart/Cart';
 import Single from './component/layout/SingleProduct/Single';
+import Checkout from './component/layout/Checkout/Checkout';
 function App() {
   return (
     <Router>
@@ -23,21 +24,24 @@ function App() {
             <Products/>
           </Wrapper>
         </Route>
+        
+        <Route exact path="/product" >
+          <Wrapper>
+            <Single/>
+          </Wrapper>
+        </Route>
+
         <Route exact path="/cart" >
           <Wrapper>
             <Cart/>
           </Wrapper>
         </Route>
-        <Route exact path="/product" >
+        <Route exact path="/checkout" >
           <Wrapper>
-            <Single/>
+            <Checkout/>
           </Wrapper>
         </Route>
-        <Route exact path="/product" >
-          <Wrapper>
-            <Single/>
-          </Wrapper>
-        </Route>
+        
 
       </Switch>
     </Router>
