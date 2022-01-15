@@ -48,7 +48,7 @@ export default function Checkout() {
                                 </div>
                             </div>
                             <div className="order_place">
-                              <button className="cash_on_del">Cash on Delivery</button>
+                              <button className="cash_on_del">Place Order</button>
                               <button className="paypal">Pay to Paypal</button>
                             </div>
                         </div>
