@@ -19,22 +19,26 @@ export default function Cart() {
                                         <div className="detail">
                                             <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quidem modi, aliquam, saepe nulla ut dicta quos laboriosam odio sit eos commodi voluptatum ex delectus dignissimos? In ipsum voluptate corporis.</h4>
                                             <span>In Stock</span>
-                                            
+
                                             <select className="select_quntity">
-                                            <option> Qty: 1</option>
-                                            <option>1</option>
-                                            <option>1</option>
-                                            <option>1</option>
-                                            <option>1</option>
+                                                <option> Qty: 1</option>
+                                                <option>1</option>
+                                                <option>1</option>
+                                                <option>1</option>
+                                                <option>1</option>
                                             </select>
 
                                         </div>
                                     </div>
                                     <div className="cart_price">
-                                      <h4>$ 14.90</h4>
+                                        <h4>$ 14.90</h4>
                                     </div>
 
                                 </div>
+                            </div>
+
+                            <div className="cart_bottom">
+
                             </div>
 
                         </div>
