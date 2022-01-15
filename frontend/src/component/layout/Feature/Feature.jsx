@@ -1,5 +1,5 @@
 import './feature.css'
-
+import { Link } from 'react-router-dom'
 export default function Feature() {
     return (
         <>
@@ -31,9 +31,9 @@ export default function Feature() {
                                 </div>
 
                             </div>
-                            <a href="#" className="card-link">
-                                Card link
-    </a>
+                            <Link to="/" className="card-link">
+                               Shop now
+    </Link>
 
                         </div>
                     </div>

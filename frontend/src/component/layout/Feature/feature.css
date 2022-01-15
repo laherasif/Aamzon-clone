@@ -19,3 +19,8 @@
     height: 100%;
     object-fit: cover
 }
+.card-link{
+    font-size: 12px;
+    text-decoration: none
+    
+}
