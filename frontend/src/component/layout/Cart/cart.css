@@ -41,3 +41,13 @@
     height: 30px;
 }
 
+
+.cart_price{
+    text-align: right;
+    width: 20%
+}
+.cart_price h4{
+    font-size: bold;
+    font-weight: 500;
+    
+}

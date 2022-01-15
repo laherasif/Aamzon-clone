@@ -30,7 +30,9 @@ export default function Cart() {
 
                                         </div>
                                     </div>
-                                    <div className="cart_price">right</div>
+                                    <div className="cart_price">
+                                      <h4>$ 14.90</h4>
+                                    </div>
 
                                 </div>
                             </div>
