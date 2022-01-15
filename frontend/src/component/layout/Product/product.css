@@ -1,0 +1,37 @@
+
+.ProductWrapper{
+    background-color: white
+}
+
+.products_list{
+    width: 100%;
+
+}
+
+.product_data{
+    display: flex;
+    flex-direction: column;
+}
+
+.product_images{
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+
+}
+
+.feature_brand{
+    font-size: 12px;
+    font-weight: 500;
+    color: gray;
+   
+}
+
+.product_desc{
+    width: 280px;
+    height: 44px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    border: 1pt solid;
+    overflow: hidden
+}

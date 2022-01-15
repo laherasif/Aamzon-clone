@@ -41,7 +41,11 @@ export default function Products() {
                                     <div className="row">
                                         <div className="col-md-3">
                                             <div className="product_data">
-                                                <img src="/images/chair-1.jpg" alt="product_img" />
+                                                <img src="/images/chair-1.jpg" className="product_images" alt="product_img" />
+                                                <p className="feature_brand">Feature from our brand</p>
+                                                <h3 className="product_desc">Amazon Basics Kids/Youth Gaming Recliner with Headrest and Back Pillow, 3+ Age Group, Black and White</h3>
+                                                <span className="price">$205 </span>
+                                                <span className="ships">Ships to Pakistan</span>
                                             </div>
                                         </div>
                                         <div className="col-md-3">first</div>
