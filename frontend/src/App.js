@@ -6,6 +6,7 @@ import Login from './component/pages/Login/Login';
 import SignUp from './component/pages/SignUp/SignUp';
 import Products from './component/layout/Product/Product';
 import Cart from './component/layout/Cart/Cart';
+import Single from './component/layout/SingleProduct/Single';
 function App() {
   return (
     <Router>
@@ -25,6 +26,16 @@ function App() {
         <Route exact path="/cart" >
           <Wrapper>
             <Cart/>
+          </Wrapper>
+        </Route>
+        <Route exact path="/product" >
+          <Wrapper>
+            <Single/>
+          </Wrapper>
+        </Route>
+        <Route exact path="/product" >
+          <Wrapper>
+            <Single/>
           </Wrapper>
         </Route>
 
