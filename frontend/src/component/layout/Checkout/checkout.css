@@ -1,0 +1,14 @@
+.checkoutWrapper{
+    background-color: white;
+
+}
+
+.check_heading{
+    padding-top: 20px;
+    
+}
+
+.shipping_address{
+    border: 1pt solid lightgray;
+    padding: 20px;
+}
