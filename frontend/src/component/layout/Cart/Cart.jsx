@@ -35,11 +35,13 @@ export default function Cart() {
                                     </div>
 
                                 </div>
+                                <hr />
+                                <div className="cart_bottom">
+                                    <h4>Subtotal (1 item): <span className="total_price">$19.49</span></h4>
+                                </div>
+
                             </div>
 
-                            <div className="cart_bottom">
-
-                            </div>
 
                         </div>
                         <div className="col-lg-3">
