@@ -7,7 +7,7 @@ export default function Login() {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-4 "></div>
-                        <div className="col-md-4 mt-5">
+                        <div className="col-md-4 mt-3">
                             <div className="logo"></div>
                             <div className="singIn_form">
                                 <h2>Sign-In</h2>
