@@ -17,10 +17,15 @@ export default function Single() {
                     <div className="row">
                         <div className="col-md-5">
                             <div className="single_image">
-                               <img src="/images/chair-1.jpg" alt="single_image" className="single_img"/>
+                                <img src="/images/chair-1.jpg" alt="single_image" className="single_img" />
                             </div>
                         </div>
-                        <div className="col-md-7">right</div>
+                        <div className="col-md-7">
+                             <div className="centerWrapper">
+                                <div className="single_content">center</div>
+                                <div className="addCart_content"> right</div>
+                             </div>
+                        </div>
                     </div>
                 </div>
             </section>
