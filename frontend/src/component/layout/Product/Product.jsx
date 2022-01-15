@@ -38,12 +38,16 @@ export default function Products() {
                                     Price and other details may vary base on product size and color
                                 </div>
                                 <div className="products_list">
-                                <div className="row">
-                                <div className="col-md-3">first</div>
-                                <div className="col-md-3">first</div>
-                                <div className="col-md-3">first</div>
-                                <div className="col-md-3">first</div>
-                                </div>
+                                    <div className="row">
+                                        <div className="col-md-3">
+                                            <div className="product_data">
+                                                <img src="/images/chair-1.jpg" alt="product_img" />
+                                            </div>
+                                        </div>
+                                        <div className="col-md-3">first</div>
+                                        <div className="col-md-3">first</div>
+                                        <div className="col-md-3">first</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
