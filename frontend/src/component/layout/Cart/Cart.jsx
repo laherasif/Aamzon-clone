@@ -46,8 +46,12 @@ export default function Cart() {
                         </div>
                         <div className="col-lg-3">
                             <div className="proceed_checkout">
-                            <h4 className="subtotal">Subtotal (1 item): <span className="total_price">$19.49</span></h4>
-                                 <h4></h4>
+                                <h4 className="subtotal_right">Subtotal (1 item): <span className="total_price">$19.49</span></h4>
+                                <div className="gift">
+                                    <input type="checkbox" />
+                                    <span className="contain_gift ">This order contain gift</span>
+                                </div>
+                                <button  className="prceed_btn">proceed to checkout</button>
                             </div>
                         </div>
                     </div>
