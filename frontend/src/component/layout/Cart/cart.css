@@ -57,11 +57,16 @@
     margin-bottom: 20px;
     text-align: right
 }
-.cart_bottom h4{
+.subtotal{
     font-size: 19px;
     font-weight: 400;
 }
 .total_price{
     font-size: 20px;
     font-weight: 500;
+}
+
+.proceed_checkout{
+    background-color: white;
+    margin-top: 20px;
 }

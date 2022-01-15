@@ -37,7 +37,7 @@ export default function Cart() {
                                 </div>
                                 <hr />
                                 <div className="cart_bottom">
-                                    <h4>Subtotal (1 item): <span className="total_price">$19.49</span></h4>
+                                    <h4 className="subtotal">Subtotal (1 item): <span className="total_price">$19.49</span></h4>
                                 </div>
 
                             </div>
@@ -45,7 +45,10 @@ export default function Cart() {
 
                         </div>
                         <div className="col-lg-3">
-
+                            <div className="proceed_checkout">
+                            <h4 className="subtotal">Subtotal (1 item): <span className="total_price">$19.49</span></h4>
+                                 <h4></h4>
+                            </div>
                         </div>
                     </div>
                 </div>
