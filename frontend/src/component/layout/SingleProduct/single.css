@@ -39,19 +39,51 @@
     
 }
 .addCart_content{
-      width: 100%;
-    border: 1pt solid;
+    width: 100%;
+    border: 1pt solid lightgray;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     padding: 10px;
+    margin-left: 5px;
     
 }
 
 .real_price{
-    color: #B12704!important
+    color: #B12704!important;
+    font-size: 18px;
+    font-weight: 500;
 
+}
+.delivery{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.in_stock{
+    color: green;
+    margin-bottom: 10px;
 }
 
 .select_singl_qunty{
     width: 70px;
+    border-radius: 5px;
+}
+.add_cart{
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #FFD814;
+    border: 1pt solid #FFD814;
+
+
+}
+
+.buy_cart{
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: #FFA41C;
+    border: 1pt solid #FFA41C;
+
 }
