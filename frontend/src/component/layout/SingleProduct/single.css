@@ -1,5 +1,6 @@
 .singleWrapper{
-    background-color: white
+    background-color: white;
+    height: 100vh;
 }
 .add_img{
     text-align: center
@@ -79,11 +80,20 @@
 
 }
 
+.add_cart:hover{
+    background-color: rgb(243, 204, 9)
+
+}
+
 .buy_cart{
     height: 40px;
     border-radius: 20px;
     margin-top: 10px;
     background-color: #FFA41C;
     border: 1pt solid #FFA41C;
+
+}
+.buy_cart:hover{
+    background-color: rgb(250, 154, 9);
 
 }
