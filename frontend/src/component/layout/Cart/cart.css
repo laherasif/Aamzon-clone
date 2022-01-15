@@ -1,0 +1,27 @@
+
+
+.cart_items{
+    background-color: white;
+    margin-top: 30px;
+    padding: 20px;
+}
+.cart_head{
+    border-bottom: 1pt solid lightgray;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.cart_head h4{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.product_details{
+    display: flex;
+    flex-direction: row
+}
+.cart_product_desc{
+    display: flex;
+    flex-direction: column
+}
