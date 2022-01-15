@@ -7,7 +7,7 @@ export default function SignUp() {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-4 "></div>
-                        <div className="col-md-4 mt-5">
+                        <div className="col-md-4 mt-3">
                             <div className="logo"></div>
                             <div className="register_form">
                                 <h2>Create account</h2>
