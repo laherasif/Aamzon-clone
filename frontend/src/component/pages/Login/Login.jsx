@@ -12,10 +12,15 @@ export default function Login() {
                             <div className="singIn_form">
                                 <h2>Sign-In</h2>
                                 <div className="mb-3">
-                                    <label for="exampleFormControlInput1" className="form-label">Email address</label>
-                                    <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+                                    <label className="form-label">Email or mobile phone number </label>
+                                    <input type="email" className="form-control" />
                                 </div>
-                                <button className="form-control">SignIn</button>
+                                <button className="btn_singIn" >SignIn</button>
+                            </div>
+                            <div className="new_account">
+                               <div className="new_account_desc">
+                               <h5>New to Amazon</h5>
+                               </div>
                             </div>
                         </div>
                     </div>
