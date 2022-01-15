@@ -15,7 +15,7 @@
     text-align: center
 }
 .single_img{
-    width: 50%;
+    width: 70%;
     height: 100%;
 }
 
@@ -23,4 +23,18 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row
+}
+
+.single_content{
+    display: flex;
+    flex-direction: column
+}
+.single_product_detail{
+    width: 80%;
+    font-weight: 500;
+    font-size: 24px;
+    padding-bottom: 20px;
+    border-bottom: 1pt solid lightgray
+
+    
 }
