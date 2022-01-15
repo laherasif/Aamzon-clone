@@ -3,19 +3,20 @@
   color: white;
   height: 60px;
 }
-.logo{
+.logo_amazon{
   display: flex;
-  align-items: center
+  align-items: center;
+ 
+
 }
 
 
-.logo_img{
-  width: 50%;
-  height:50%;
-  object-fit: cover;
-  cursor: pointer;
-  padding: 5px;
-  border-radius: 4px;
+.amazon{
+  background-image: url(../../images/login-logo.png);
+  background-position: -5px -130px;
+  height: 31px;
+  width: 103px;
+  margin-left: 10px;
 }
 .logo_img:hover{
   border: 1pt solid white;

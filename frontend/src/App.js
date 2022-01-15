@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import './App.css'
 import Home from './component/pages/Home/Home'
-import Wrapper from './component/layout/Wrapper/Wrapper'
+import Wrapper from './component/LayoutWrapper/Wrapper/Wrapper'
 import Login from './component/pages/Login/Login';
 import SignUp from './component/pages/SignUp/SignUp';
 function App() {
@@ -15,6 +15,12 @@ function App() {
         </Route>
         <Route path="/login" component={Login} />
         <Route path="/register" component={SignUp} />
+        <Route path="/product" >
+          <Wrapper>
+            <Home />
+          </Wrapper>
+        </Route>
+
       </Switch>
     </Router>
   )

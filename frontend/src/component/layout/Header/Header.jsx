@@ -9,9 +9,10 @@ const Header = () => {
 
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
-          <div className="logo">
-            <img src="/images/newlogo.png" className="logo_img" alt="logo" />
-            <div className="locationWarpper">
+          <div className="logo_amazon">
+            {/* <img src="/images/newlogo.png" className="logo_img" alt="logo" /> */}
+              <div className="amazon"></div>
+            <div className="locationWarpper ">
               <div className="location">
                 <HiOutlineLocationMarker />
               </div>
