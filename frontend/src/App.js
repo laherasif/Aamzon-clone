@@ -16,7 +16,7 @@ function App() {
         </Route>
         <Route path="/login" component={Login} />
         <Route path="/register" component={SignUp} />
-        <Route path="/product" >
+        <Route exact path="/product" >
           <Wrapper>
             <Products />
           </Wrapper>
