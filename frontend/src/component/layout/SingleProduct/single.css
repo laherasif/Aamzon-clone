@@ -30,11 +30,28 @@
     flex-direction: column
 }
 .single_product_detail{
-    width: 80%;
+    width: 100%;
     font-weight: 500;
     font-size: 24px;
     padding-bottom: 20px;
     border-bottom: 1pt solid lightgray
 
     
+}
+.addCart_content{
+      width: 100%;
+    border: 1pt solid;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+
+.real_price{
+    color: #B12704!important
+
+}
+
+.select_singl_qunty{
+    width: 70px;
 }

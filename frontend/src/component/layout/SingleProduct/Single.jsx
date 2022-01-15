@@ -21,19 +21,33 @@ export default function Single() {
                             </div>
                         </div>
                         <div className="col-md-8">
-                             <div className="centerWrapper">
+                            <div className="centerWrapper">
                                 <div className="single_content">
-                                   <h4 className="single_product_detail">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda ea laboriosam, voluptate quia sunt numquam explicabo totam quasi incidunt quos dicta officiis repudiandae error temporibus, quae voluptates excepturi consequatur impedit.</h4>
+                                    <h4 className="single_product_detail">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda ea laboriosam, voluptate quia sunt numquam explicabo totam quasi incidunt quos dicta officiis repudiandae error temporibus, quae voluptates excepturi consequatur impedit.</h4>
                                     <p className="price">$ 14.40</p>
-                                    <ul className="product_info">
-                                    <li className="listInfo">
-                                      <h3>Product Dimentions</h3>
-                                      <p>24.4"D x 26.4</p>
-                                    </li>
-                                    </ul>
+                                    <h5>Decription </h5>
+                                    <p>this is new product</p>
                                 </div>
-                                <div className="addCart_content"> right</div>
-                             </div>
+                                <div className="addCart_content">
+
+                                    <p className="real_price">$ 205.25</p>
+                                    <span className="delivery">Delivery January 19 - 28  </span>
+
+                                    <span>In Stock</span>
+
+                                    <select className="select_singl_qunty">
+                                        <option> Qty: 1</option>
+                                        <option>1</option>
+                                        <option>1</option>
+                                        <option>1</option>
+                                        <option>1</option>
+                                    </select>
+
+                                    <button className="add_cart">Add to Cart</button>
+                                    <button className="buy_cart">Buy Now</button>
+
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
